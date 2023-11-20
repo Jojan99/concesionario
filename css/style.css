@@ -1,0 +1,143 @@
+
+.contenedor-padre {
+    display: flex;
+    height: 100vh; /* 100% de la altura de la ventana */
+  }
+  
+
+
+  .izquierda-20 {
+    flex: 0 0 20%; /* 20% de ancho y no puede cambiar de tamaño */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 24px;
+  }
+  
+  .izquierda-20 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .izquierda-20 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .izquierda-20 a:hover {
+    background-color: #005dab;
+  }
+  
+  .mitad {
+    flex: 1; /* Toma todo el espacio disponible en el centro */
+    background-color: #ffffff; /* Color de fondo para distinguirlo */
+  }
+  
+  .derecha-20 {
+    flex: 0 0 20%; /* 20% de ancho y no puede cambiar de tamaño */
+    background-color: #ffffff; /* Color de fondo para distinguirlo */
+  }
+.navbar-brand {font-size: 1.8rem !important;}
+
+.pagination-container {
+    display: flex;
+}
+.pagination-container button {
+    margin: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#items-container {
+  text-align: center; /* Centrar el contenido horizontalmente */
+   /* Agregar un espacio interno para el contenido */
+}
+
+#items-container img {
+  max-width: 100%; /* Hacer que las imágenes se ajusten al ancho del contenedor */
+}
+
+#items-container p {
+  font-size: 12px; /* Reducir el tamaño de fuente del texto */
+  margin-bottom: 5px; /* Agregar un pequeño espacio entre párrafos */
+}
+
+#items-container a {
+  font-size: 12px; /* Reducir el tamaño de fuente de los enlaces */
+}
+
+#items-container h1,
+#items-container h2,
+#items-container h3,
+#items-container h4,
+#items-container h5,
+#items-container h6 {
+    font-size: 15px; /* Tamaño de fuente uniforme para todos los títulos */
+    font-weight: bold; /* Establecer el grosor de la fuente en negrita */
+    margin: 10px 0; /* Agregar espacio superior e inferior para separar los títulos */
+    color: #333; /* Color de texto uniforme para todos los títulos */
+}
+
+/* Ejemplo de estilos adicionales */
+#items-container h1 {
+    color: #FF0000; /* Cambiar el color del título h1 a rojo */
+}
+
+
+#mainNav {
+  padding: 5px 0; /* Ajusta el espaciado interno superior e inferior */
+}
+
+.navbar-brand {
+  font-size: 18px; /* Reduce el tamaño de fuente del texto */
+  padding: 0; /* Elimina el espaciado interno del texto */
+}
+
+.navbar-brand img {
+  width: 80px; /* Reduce el ancho de la imagen del logo */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.card {
+  max-height: 400px; /* Establece la altura máxima de las tarjetas */
+  overflow: hidden; /* Oculta el contenido que desborda el límite de altura */
+}
+
+.card-title {
+  font-size: 18px; /* Tamaño de fuente del título */
+  white-space: nowrap; /* Evita que el título se divida en varias líneas */
+  overflow: hidden; /* Oculta el texto que desborda el límite de la tarjeta */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al final del texto truncado */
+}
+
+.card-text {
+  font-size: 14px; /* Tamaño de fuente del texto de descripción y precio */
+}
+
+
+.page-link {
+  text-decoration: none;
+  color: #007bff; /* Estilo del color de enlace */
+  font-weight: bold; /* Estilo del texto en negrita */
+  margin: 5px;
+}
+
+#pagination li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+#pagination .active {
+  font-weight: bold;
+  color: #007bff;
+}
